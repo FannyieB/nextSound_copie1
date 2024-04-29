@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* reset   ****************************************   */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+/* variables   ************************************  */
+/*Header *******************************************   */
+.header_container {
+  background-color: #324A5F;
+  color: white;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 9vh;
+  margin: 0 10%;
+}
+.header_top div {
+  width: 33.3333333333%;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ctas_header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+  margin: 0 10%;
+}
+
+.header_bottom_img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.header_slogan_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Section 1: écoute*******************************************   */
+.ecoute_container {
+  background-color: #0C1B21;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top_ecoute_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.icone_ecoute {
+  margin: 0 auto;
+}
+
+.triplecards_ecoute_container {
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+}
+.triplecards_ecoute_container div {
+  width: 33.3333333333%;
+}
+
+.container_card1_ecoute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container_card2_ecoute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container_card3_ecoute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*Section 2: abonnement*******************************************   */
+.abonnement_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5FB0B7;
+}
+
+.top_abonnement_container {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maxi_card_abonnement {
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+}
+.maxi_card_abonnement div {
+  width: 50%;
+}
+
+.maxi_card_img {
+  object-fit: cover;
+}
+
+.maxi_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Section 3: audio_albums*******************************************   */
+.audio_container {
+  background-color: #0C1B21;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top_audio_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.cta_audio {
+  width: 230px;
+  height: 55px;
+}
+
+/*Section 4: inscription*******************************************   */
+.subscription_container {
+  display: flex;
+  background-color: #8DE969;
+}
+.subscription_container div {
+  width: 50%;
+}
+.subscription_container .subscription_left_img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.subscription_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Section 5: footer*******************************************   */
+.footer_container {
+  background-color: #0C1B21;
+  color: white;
+}
+
+.footer_subcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.footer_subcontainer div {
+  width: 33.3333333333%;
+}
+.footer_subcontainer .footer_center_img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer_title {
+  font-size: 2rem;
+}
+
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=styles.css.map */
